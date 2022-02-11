@@ -28,11 +28,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(30, 29);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 39);
+            this.button1.Size = new System.Drawing.Size(143, 46);
             this.button1.TabIndex = 0;
-            this.button1.Text = "表示";
+            this.button1.Text = "印刷ダイアログ表示";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -40,7 +40,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(433, 237);
+            this.ClientSize = new System.Drawing.Size(199, 108);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";

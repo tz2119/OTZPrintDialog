@@ -9,7 +9,7 @@ namespace OTZPrintDialog {
         }
 
         /// <summary>
-        /// 印刷ボタンクリック時
+        /// 印刷ダイアログ表示ボタンクリック時
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
