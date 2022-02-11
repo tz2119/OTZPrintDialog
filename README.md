@@ -1,8 +1,9 @@
-# OTZPrintDialog とは?
+# OTZPrintDialog README
+## OTZPrintDialog とは?
 
 .NETには存在しない印刷ダイアログです。CommonDialog を継承して作成しています。
 
-# どんなダイアログなのか？
+## どんなダイアログなのか？
 
 こんな感じのダイアログです。Win32のアプリではよく使われています。
 
