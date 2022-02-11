@@ -8,6 +8,11 @@ namespace OTZPrintDialog {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 印刷ボタンクリック時
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e) {
             OTZPrintDialog dialog = new OTZPrintDialog();
             dialog.Document = new PrintDocument();
