@@ -9,6 +9,15 @@ namespace OTZPrintDialog {
     /// </summary>
     public class OTZPrintDialog : CommonDialog {
 
+        [DllImport("comdlg32.dll", EntryPoint = "PrintDlgW", CharSet = CharSet.Unicode, SetLastError = true)]
+        private static extern bool PrintDlg(ref PRINTDLG_32 lpPrintdlg);
+
+        [DllImport("comdlg32.dll", EntryPoint = "PrintDlgW", CharSet = CharSet.Unicode, SetLastError = true)]
+        private static extern bool PrintDlg(ref PRINTDLG_64 lpPrintdlg);
+
+        [DllImport("kernel32.dll")]
+        private static extern IntPtr GlobalFree(IntPtr hMem);
+
         private PageSettings pageSettings;
         private PrintDocument printDocument;
         private PrinterSettings printerSettings;
@@ -38,6 +47,7 @@ namespace OTZPrintDialog {
             public IntPtr hPrintTemplate;
             public IntPtr hSetupTemplate;
             //public PRINTDLG_32() {
+
             //}
         }
 
@@ -66,15 +76,6 @@ namespace OTZPrintDialog {
             //public PRINTDLG_64() {
             //}
         }
-
-        [DllImport("comdlg32.dll", EntryPoint = "PrintDlgW", CharSet = CharSet.Unicode, SetLastError = true)]
-        private static extern bool PrintDlg(ref PRINTDLG_32 lpPrintdlg);
-
-        [DllImport("comdlg32.dll", EntryPoint = "PrintDlgW", CharSet = CharSet.Unicode, SetLastError = true)]
-        private static extern bool PrintDlg(ref PRINTDLG_64 lpPrintdlg);
-
-        [DllImport("kernel32.dll")]
-        private static extern IntPtr GlobalFree(IntPtr hMem);
 
         /// <summary>
         /// コンストラクタ
