@@ -14,6 +14,7 @@ namespace OTZPrintDialog {
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e) {
+            
             OTZPrintDialog dialog = new OTZPrintDialog();
             dialog.Document = new PrintDocument();
             // ダイアログ表示
