@@ -32,11 +32,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 46);
             this.button1.TabIndex = 0;
-<<<<<<< HEAD
-            this.button1.Text = "印刷ダイアログを表示";
-=======
             this.button1.Text = "印刷ダイアログの表示";
->>>>>>> b751222b8322830bfabc9b2fbf6ffa8f0dd78443
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
