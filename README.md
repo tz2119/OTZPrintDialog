@@ -2,11 +2,7 @@
 
 ## OTZPrintDialog とは?
 
-<<<<<<< HEAD
-.NET Framework のコントロールには存在しない印刷ダイアログです。CommonDialog を継承して作成しています。.NET6 で作成していますが、おそらく .NET Framework でも動作すると思います。
-=======
-.NETのコントロールには存在しない印刷ダイアログです。CommonDialog を継承して作成しています。.NET6 で作成していますが、おそらく.NET Frameworkでも動作すると思います。
->>>>>>> 0c2d52b05f062f4349f09e0fead17d5603889818
+.NET Framework のコントロールには存在しない印刷ダイアログです。CommonDialog を継承して作成しています。.NET6 で作成していますが、.NET Framework でも動作すると思います。
 
 ## どんなダイアログなのか？
 
